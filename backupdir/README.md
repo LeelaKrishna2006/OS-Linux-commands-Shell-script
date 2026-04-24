@@ -356,18 +356,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![urllist1](img/urllist1.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![urllist2](img/urllist2.png)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Alt text](img/tar1.png)
+
 
 mkdir backupdir
  
@@ -377,20 +377,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Alt text](img/tar2.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![Alt text](img/tar3.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-![Alt text](img/zip1.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![Alt text](img/zip2.png)
+
  
 # Shell Script
 ```
